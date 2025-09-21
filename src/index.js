@@ -22,6 +22,9 @@ app.set('view engine', 'hbs')
 var pathToViews = path.join(__dirname, 'resources', 'views')
 app.set('views', pathToViews)
 
+var pathToPartials = path.join(__dirname, 'resources', 'views', 'partials')
+app.set('partials', pathToPartials)
+
 // HTTP loggers
 app.use(morgan('dev'))
 
