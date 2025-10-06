@@ -2,6 +2,7 @@
   "name": "blog_nodejs",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
@@ -26,11 +27,15 @@
   "homepage": "https://github.com/XuanQuang2002/blog_nodejs#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "express-handlebars": "^8.0.3"
+    "express-handlebars": "^8.0.3",
+    "mongodb": "^6.20.0"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
     "sass": "^1.93.0"
   }
 }
